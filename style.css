@@ -3,11 +3,11 @@
   padding: 0px;
 }
 
-#container1 {
+.container {
   width: 1000px;
-  border: 1px solid #BEA3FE;
+  border: 1px solid #bea3fe;
   border-radius: 20px;
-  background-color: #BEA3FE;
+  background-color: #bea3fe;
 }
 
 #logocontainer {
@@ -21,45 +21,187 @@
   width: 400px;
   /* border: 1px solid black; */
 }
-#name{
-    font-size: 70px;
-    font-weight: bold;
-    color: #E2E1FA;
-    display: flex;
-    justify-content: center;
+#name {
+  font-size: 70px;
+  font-weight: bold;
+  color: #e2e1fa;
+  display: flex;
+  justify-content: center;
 }
-#logincontainer{
-    height: 100px;
-    margin: 200px 40px 30px;
-    background-color: #FFFEFF;
-    font-size: 40px;
-    font-weight: bold;
-    color: #666666;
-    border-radius: 20px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#logincontainer {
+  height: 100px;
+  margin: 200px 40px 30px;
+  background-color: #fffeff;
+  font-size: 40px;
+  font-weight: bold;
+  color: #666666;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#signupcontainer{
-    height: 100px;
-    margin: 5px 35px;
-    border: 5px solid #B5BCF7;
-    font-size: 40px;
-    font-weight: bold;
-    color: #CBD5F1;
-    border-radius: 20px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#signup {
+  height: 100px;
+  margin: 5px 35px;
+  border: 5px solid #b5bcf7;
+  font-size: 40px;
+  font-weight: bold;
+  color: #cbd5f1;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#guest{
-    height: 100px;
-    margin: 400px 0px 100px;
-    font-size: 40px;
-    font-weight: bold;
-    color: #B8CCF8;
-    border-radius: 20px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#guest {
+  height: 100px;
+  margin: 400px 0px 100px;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #b8ccf8;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#time {
+  font-size: 40px;
+  font-weight: bolder;
+  color: #b8ccf8;
+}
+#timeandsignalwifibattery{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+}
+#signals {
+  height: 100px;
+  width: 100px;
+}
+#signalwifibattery {
+  max-width: 100%;
+  max-height: 100%;
+}
+#welcome{
+  margin-top: 150px;
+  font-size: 70px;
+  font-weight: bold;
+  color: #e2e1fa;
+  display: flex;
+  justify-content: center;
+}
+#glad{
+  font-size: 70px;
+  color: #e2e1fa;
+  display: flex;
+  justify-content: center;
+}
+#emailaddress {
+  height: 100px;
+  margin: 5px 35px;
+  padding: 0px 30px;
+  border: 5px solid #b5bcf7;
+  font-size: 40px;
+  font-weight: bold;
+  color: #cbd5f1;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+#passwordandeye{
+  height: 100px;
+  margin: 5px 35px;
+  padding: 0px 30px;
+  border-radius: 20px;
+  border: 5px solid #b5bcf7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#password{
+  font-size: 40px;
+  font-weight: bold;
+  color: #cbd5f1;
+}
+#eyecontainer{
+  height: 40px;
+  width: 40px;
+}
+#eye {
+  max-width: 100%;
+  max-height: 100%;
+}
+#forgot{
+  font-size: 40px;
+  font-weight: bold;
+  color: #cbd5f1;
+  margin-right: 35px;
+  display: flex;
+  justify-content: end;
+}
+#logincontainer2 {
+  height: 100px;
+  margin: 60px 40px 30px;
+  background-color: #fffeff;
+  font-size: 40px;
+  font-weight: bold;
+  color: #666666;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#or{
+  margin-top: 150px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #cbd5f1;
+  display: flex;
+  justify-content: center;
+}
+#googleandfacebook{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 15px 0px;
+}
+#google{
+  height: 100px;
+  width: 45%;
+  border-radius: 20px;
+  background-color: #fffeff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#googleimg{
+   max-height: 70%;
+}
+#facebook{
+  height: 100px;
+  width: 45%;
+  border-radius: 20px;
+  background-color: #fffeff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#facebookimg{
+  height: 100px;
+}
+#dontandnow{
+  margin-top: 300px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+#dont{
+  font-size: 40px;
+  font-weight: bold;
+  color: #627FBB;
+}
+#now{
+  font-size: 40px;
+  font-weight: bold;
+  color: #cbd5f1;
 }
