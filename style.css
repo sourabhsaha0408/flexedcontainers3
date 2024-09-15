@@ -2,14 +2,34 @@
   margin: 0px;
   padding: 0px;
 }
+body{
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(#e66465, black);
+}
+#main{
+  width: 4000px;
+  height: 2800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#e77777, #EEE8FF);
+}
+#container1{
+  padding-top: 500px;
+}
+#container3{
+  padding-top: 100px;
+}
 
 .container {
   width: 1000px;
-  border: 1px solid #bea3fe;
+  height: 2200px;
+  border: 1px  solid #bea3fe;
   border-radius: 20px;
-  background-color: #bea3fe;
+  margin: 0px 50px;
+  background: linear-gradient(#e88888, #bea3fe);
 }
-
 #logocontainer {
   margin-top: 600px;
   height: 400px;
@@ -64,16 +84,17 @@
   align-items: center;
 }
 
-#time {
-  font-size: 40px;
-  font-weight: bolder;
-  color: #b8ccf8;
-}
 #timeandsignalwifibattery{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 40px;
+  margin-top: 10px;
+}
+#time {
+  font-size: 40px;
+  font-weight: bolder;
+  color: #b8ccf8;
 }
 #signals {
   height: 100px;
@@ -101,6 +122,7 @@
   height: 100px;
   margin: 5px 35px;
   padding: 0px 30px;
+  background-color: #C8BAFE;
   border: 5px solid #b5bcf7;
   font-size: 40px;
   font-weight: bold;
@@ -113,6 +135,7 @@
   height: 100px;
   margin: 5px 35px;
   padding: 0px 30px;
+  background-color: #C8BAFE;
   border-radius: 20px;
   border: 5px solid #b5bcf7;
   display: flex;
@@ -153,6 +176,7 @@
   align-items: center;
 }
 #or{
+  width: 1000px;
   margin-top: 150px;
   font-size: 40px;
   font-weight: bold;
@@ -190,7 +214,7 @@
   height: 100px;
 }
 #dontandnow{
-  margin-top: 300px;
+  margin-top: 650px;
   margin-bottom: 100px;
   display: flex;
   justify-content: center;
@@ -203,5 +227,12 @@
 #now{
   font-size: 40px;
   font-weight: bold;
+  margin-left: 5px;
   color: #cbd5f1;
+}
+#haveandnow{
+  margin-top: 540px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
 }
